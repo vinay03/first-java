@@ -4,6 +4,7 @@ class CalcFun
 	public void run()
 	{
 		this.add();
+		this.subtract();
 	}
 
 	public void add()
@@ -12,7 +13,11 @@ class CalcFun
 	}
 
 	public void subtract()
-	{}
+	{
+		int a=10,b=5;
+		int c=a-b;
+		System.out.println("Subtraction is "+ c);
+	}
 
 	public void multiply()
 	{}
